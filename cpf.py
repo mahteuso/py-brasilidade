@@ -14,7 +14,7 @@ class Cpf:
             return True
         else:
             return False
-
+    #comentário novo
     def cpf_format(self):
         cpf_part_one = self.cpf[:3]
         cpf_part_two = self.cpf[3:6]
